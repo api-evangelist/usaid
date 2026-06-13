@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "USAID",
+  "description": "The U.S. Agency for International Development (USAID) provides programmatic access to foreign assistance data, development finance records, project tracking, aid flow analysis, and global development datasets through a suite of REST APIs.",
+  "url": "https://www.usaid.gov",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://www.usaid.gov",
+    "https://github.com/USAID",
+    "https://x.com/USAID",
+    "https://www.linkedin.com/company/usaid"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "data@usaid.gov",
+    "contactType": "customer support",
+    "url": "https://data.usaid.gov"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "USAID APIs",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "ForeignAssistance.gov Data API",
+        "description": "The U.S. government's flagship source for foreign assistance budgetary and financial data, exposing spending, obligations, and disbursements across all U.S. government agencies managing foreign assistance portfolios.",
+        "url": "https://foreignassistance.gov/api-docs"
+      },
+      {
+        "@type": "Offer",
+        "name": "USAID Development Data Library API",
+        "description": "Provides programmatic access to USAID's open datasets via the Socrata Open Data API (SODA), covering development activities, projects, evaluations, and geographic data.",
+        "url": "https://data.usaid.gov"
+      },
+      {
+        "@type": "Offer",
+        "name": "USAID Development Experience Clearinghouse API",
+        "description": "Provides programmatic access to the largest online repository of USAID-funded international development documentation, including technical reports, evaluations, assessments, and project documents.",
+        "url": "https://dec.usaid.gov/api/"
+      }
+    ]
+  }
+}
