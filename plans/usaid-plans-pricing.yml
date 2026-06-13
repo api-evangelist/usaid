@@ -1,0 +1,41 @@
+name: USAID API Plans and Pricing
+description: >-
+  USAID APIs are provided as free, publicly accessible government services with
+  no licensing fees. The ForeignAssistance.gov Data API and USAID Development
+  Data Library are open access with no cost barriers. Rate limits vary by
+  endpoint; using an application token (free registration) raises throughput
+  significantly on Socrata-powered endpoints.
+plans:
+  - name: Public Access - No Token
+    description: >-
+      Open access to USAID APIs without authentication. Suitable for
+      exploratory or low-volume use. Rate limits apply and are enforced by
+      source IP address.
+    price: 0
+    currency: USD
+    unit: month
+    features:
+      - Access to ForeignAssistance.gov Data API
+      - Access to Development Data Library (SODA) datasets
+      - No registration required
+      - Throttled by IP address
+      - Limited to approximately 1,000 requests per rolling period
+  - name: Registered Application Token (Free)
+    description: >-
+      Free registration with Socrata/Tyler Technologies to obtain an application
+      token for use with the USAID Development Data Library (data.usaid.gov).
+      Provides significantly higher throughput than unauthenticated access.
+    price: 0
+    currency: USD
+    unit: month
+    features:
+      - Up to 1,000 requests per hour
+      - Application token-based authentication
+      - Access to all public USAID DDL datasets
+      - Data filtering, querying, and aggregation via SODA
+      - Support via USAID Data Services GitHub issues
+notes: >-
+  USAID APIs are government open-data services with no commercial pricing tiers.
+  All data is freely available under open government data principles. For
+  bulk data downloads, USAID provides CSV and other formats directly at
+  foreignassistance.gov/data and data.usaid.gov without API rate constraints.

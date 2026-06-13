@@ -1,0 +1,45 @@
+name: USAID API FinOps
+description: >-
+  USAID APIs are U.S. government open-data services with no direct cost to
+  consumers. All APIs are funded through federal appropriations and offered
+  freely to the public under open government data mandates. There are no
+  usage-based billing, subscription fees, or overage charges associated with
+  any USAID public API. Financial operations considerations for API consumers
+  center on infrastructure costs of applications built on top of these APIs,
+  not API access costs.
+cost:
+  model: Free - Government Open Data
+  currency: USD
+  baseCost: 0
+  usageCost: 0
+  overageCost: 0
+considerations:
+  - type: No Direct API Cost
+    description: >-
+      All USAID public APIs (ForeignAssistance.gov, Development Data Library,
+      DEC API) are free to access. No payment method or billing account is
+      required.
+  - type: Application Token Registration
+    description: >-
+      Free registration for a Socrata application token is recommended for
+      data.usaid.gov (DDL) to obtain higher rate limits. No cost is associated
+      with token registration.
+    url: https://dev.socrata.com/register
+  - type: Bulk Data Downloads
+    description: >-
+      For high-volume use cases, USAID recommends downloading bulk data files
+      (CSV, JSON) from foreignassistance.gov/data and data.usaid.gov rather
+      than making repeated API calls, which reduces infrastructure costs for
+      consumers.
+  - type: Consumer Infrastructure Costs
+    description: >-
+      Organizations building products on USAID APIs should budget for their
+      own compute, storage, and bandwidth costs for ingesting, processing, and
+      serving USAID data, particularly for applications performing frequent
+      dataset refreshes or serving large user bases.
+  - type: Data Availability Risk
+    description: >-
+      Some USAID APIs (notably the DEC API and portions of the ecosystem)
+      have experienced service disruptions since early 2025 due to agency
+      restructuring. Consumers should account for potential data unavailability
+      in system design and consider caching or bulk-download strategies.

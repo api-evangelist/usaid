@@ -1,0 +1,45 @@
+name: USAID API Rate Limits
+description: >-
+  Rate limits for USAID's public APIs vary by service. The ForeignAssistance.gov
+  Data API does not publish explicit rate limits but follows standard U.S.
+  government open-data fair-use conventions. The Development Data Library uses
+  the Socrata Open Data API (SODA) platform, which enforces documented rate
+  limits based on whether an application token is provided.
+limits:
+  - api: ForeignAssistance.gov Data API
+    description: >-
+      No officially published rate limits. Standard fair-use policies apply.
+      Bulk data is available for download at foreignassistance.gov/data to
+      avoid repeated API calls for large datasets.
+    authenticated: false
+    requestsPerHour: null
+    notes: Contact foreignassistance.gov for high-volume access needs.
+  - api: USAID Development Data Library (SODA / data.usaid.gov)
+    description: >-
+      Powered by Socrata SODA. Without an application token, requests are
+      throttled per source IP address. Registering a free application token
+      raises the rate limit to 1,000 requests per hour.
+    authenticated: false
+    requestsPerHour: 100
+    throttleBy: IP address
+    notes: >-
+      Unauthenticated throttle is approximate; Socrata may vary limits by
+      dataset or IP activity pattern.
+  - api: USAID Development Data Library (SODA / data.usaid.gov) - Token Auth
+    description: >-
+      With a registered application token (free), the SODA rate limit is
+      raised to 1,000 requests per hour per token.
+    authenticated: true
+    authMethod: Application Token (header or query param)
+    requestsPerHour: 1000
+    notes: >-
+      Register for a free application token at https://dev.socrata.com/register.
+  - api: USAID Development Experience Clearinghouse (DEC) API
+    description: >-
+      No officially published rate limits. The DEC API has experienced
+      intermittent availability. Contact USAID for programmatic bulk access.
+    authenticated: false
+    requestsPerHour: null
+    notes: >-
+      DEC API availability has been impacted by broader USAID infrastructure
+      changes since early 2025. Check dec.usaid.gov for current status.
