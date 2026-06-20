@@ -4,7 +4,7 @@
   "name": "USAID",
   "description": "The U.S. Agency for International Development (USAID) provides programmatic access to foreign assistance data, development finance records, project tracking, aid flow analysis, and global development datasets through a suite of REST APIs.",
   "url": "https://www.usaid.gov",
-  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "sameAs": [
     "https://www.usaid.gov",
     "https://github.com/USAID",

@@ -13,7 +13,7 @@ description: >-
   policymakers, journalists, and developers building tools around international
   aid transparency and global development outcomes.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: >-
   https://raw.githubusercontent.com/api-evangelist/usaid/refs/heads/main/apis.yml
 created: '2026-06-13'
@@ -36,7 +36,7 @@ apis:
       querying, and aggregation of aid flow data by country, sector, year, and
       agency.
     image: >-
-      https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+      https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://foreignassistance.gov/api-docs
     baseURL: https://foreignassistance.gov/api
     tags:
@@ -61,7 +61,7 @@ apis:
       required for higher rate limits. Data is also available in machine-readable
       format and feeds into data.gov.
     image: >-
-      https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+      https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://data.usaid.gov
     baseURL: https://data.usaid.gov/resource
     tags:
@@ -86,7 +86,7 @@ apis:
       evaluations, assessments, and project documents spanning decades of
       development assistance programming worldwide.
     image: >-
-      https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+      https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://dec.usaid.gov/api/
     baseURL: https://dec.usaid.gov/api
     tags:
