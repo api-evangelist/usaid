@@ -101,6 +101,8 @@ apis:
       - FN: USAID DEC Support
         url: https://dec.usaid.gov
 common:
+  - type: DomainSecurity
+    url: security/usaid-domain-security.yml
   - type: Website
     url: https://www.usaid.gov
   - type: Documentation
