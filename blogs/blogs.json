@@ -5,11 +5,13 @@
   "repo": "usaid",
   "feeds": [
     {
-      "source": "https://www.usaid.gov/news",
+      "source": "https://www.linkedin.com/company/usaid",
+      "feed_url": "https://www.linkedin.com/company/usaid",
+      "title": "",
       "saved": 0,
-      "error": "HTTP 404 Not Found"
+      "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-27T13:18:42Z"
+  "fetched": "2026-07-11T11:50:51Z"
 }
