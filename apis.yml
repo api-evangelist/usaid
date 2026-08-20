@@ -105,6 +105,11 @@ apis:
       - Development Documents
       - Reports
       - Evaluations
+      - Knowledge-Management
+    tags_raw:
+      - Development Documents
+      - Reports
+      - Evaluations
       - Knowledge Management
     properties:
       - type: Documentation
