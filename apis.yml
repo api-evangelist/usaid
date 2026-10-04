@@ -121,12 +121,13 @@ apis:
       - Development Documents
       - Reports
       - Evaluation
-      - Knowledge-Management
+      - Knowledge Management
     tags_raw:
       - Development Documents
       - Reports
       - Evaluations
       - Knowledge Management
+      - Knowledge-Management
     properties:
       - type: Documentation
         url: https://dec.usaid.gov/api/help.html
