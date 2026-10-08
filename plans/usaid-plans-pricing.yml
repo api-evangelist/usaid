@@ -43,3 +43,25 @@ notes: >-
   All data is freely available under open government data principles. For
   bulk data downloads, USAID provides CSV and other formats directly at
   foreignassistance.gov/data and data.usaid.gov without API rate constraints.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  units:
+  - period
+  plans:
+  - name: Public Access - No Token
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Registered Application Token (Free)
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - period
+    periods: []
